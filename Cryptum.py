@@ -49,8 +49,8 @@ class AboutDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("About")
         self.main_info = QLabel("Cryptum")
-        self.info = QLabel("Version 1.0-alpha")
-        self.sub_info = QLabel("Developed by Ubbabubba")
+        self.info = QLabel("Version 0.1.0-alpha")
+        self.sub_info = QLabel("Developed by darthlegor")
         layout = QVBoxLayout()
         layout.addWidget(self.main_info)
         layout.addWidget(self.info)
@@ -282,7 +282,7 @@ class MainLoginWindow(QMainWindow):
     def create_status_bar(self):
         self.status_bar = QStatusBar()
         self.setStatusBar(self.status_bar)
-        self.status_bar.addPermanentWidget(QLabel("Version 1.0-alpha"))
+        self.status_bar.addPermanentWidget(QLabel("Version 0.1.0-alpha"))
 
 
 if __name__ == '__main__':
