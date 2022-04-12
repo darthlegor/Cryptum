@@ -1,0 +1,52 @@
+* {
+  font-family: Calibri;
+  font-size: 12px;
+  font-weight: Normal;
+}
+
+QMainWindow {background-color: #808080;}
+
+QToolBar {background-color:#404040; border-style: transparent;}
+
+QDialog {background-color: #404040;}
+
+QMessageBox {background-color: #404040;}
+
+QMenuBar {background: #404040; color: white;}
+
+QMenu {background: #404040; border: 1px solid #d6d6d6;}
+
+QMenu::item:hover {background: #ebebeb; border: 1px solid #d6d6d6;}
+
+QMenu::item {background:transparent;}
+QMenu::item:selected {background: #ebebeb;}
+
+QLabel {color : white; padding-left: 0 0px;}
+
+QLineEdit {height: 23px;
+                           background-color: transparent;
+                           border-style: transparent;
+                           padding: 0 5px;
+                           margin-left: 1px;
+                           margin-top: 1px;
+                           margin-right: 1px;}
+
+QLineEdit::focus {border: 1px solid #FFF266; border-radius:4px;}
+
+QComboBox {height: 23px; background-color: transparent; border-style: transparent;}
+QComboBox::down-arrow{image: url(icons/icons8-expand-arrow-96.png)}
+
+QListView{
+    border: none;
+    color:              rgb(87, 96, 134);
+    background-color:   white;
+    selection-background-color: rgb(47, 175, 178);
+    margin-left: 5px;
+    padding: 0 0px;}
+
+QListView::item:hover{background-color:   rgb(47, 175, 178); border: none;}
+
+QProgressBar {height: 11px;border: 1px solid #c2c2c2; border-radius: 4px;margin-left: 1px;margin-top: 1px;
+                           text-align: center;}
+
+QProgressBar::chunk {background-color: lightblue;border-radius: 3px;margin: 0.5px;}
