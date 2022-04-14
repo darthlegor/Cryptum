@@ -5,7 +5,7 @@ or cloud. All you need to safely store is just in your machine as locally crypte
 ## Install and use
 
 As this app is Python-based you need a properly installed Python interpreter (Python 3.7+).
-[Here]("https://www.python.org/") how to install Python on your machine.
+[Click here](https://www.python.org/) for Python install instruction on your machine.
 In order to have this app to work correctly, you need to install the following additional libraries:
 
 `PySide6`
