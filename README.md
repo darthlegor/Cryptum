@@ -39,4 +39,4 @@ Download the current version of standalone executable [Cryptum 0.1.0-alpha](http
 
 ## Changelog
 ### 0.1.0-alpha
-Initial release, some basic functinality not working yet.
+Initial release with basic cryptography functionality and simple database storage, some UI features still to do.
